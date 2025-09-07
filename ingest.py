@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from .rag import ingest_corpus
+from .app.rag import ingest_corpus
 
 
 if __name__ == "__main__":
